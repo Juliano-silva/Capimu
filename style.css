@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img[src=""],img[src="null"], img[src="undefined"] {
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+body{
+    background-color: rgb(175, 34, 34);
+}
+h1{
+    text-align: center;
+    border: 0.2vh solid rgb(168, 96, 96);
+    background: rgb(168, 96, 96);
+    color: white;
+    text-shadow: 0.2vh 0.2vh 0.2vh black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vh;
+}
+img{
+    width: 85%;
+    height: 82vh;
+    border-radius: 2vh 0vh 2vh 0;
+    border: 1vh solid rgb(139, 90, 47);
+    display: block;
+    margin: auto;
+    margin-top: 0.7vh;
+}
+button{
+    all: unset;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 0.4vh solid rgb(139, 90, 47);
+    margin-top: 1vh;
+    font-size: 4vh;
+    cursor: pointer;
+    width: 40vh;
+    border-radius: 2vh;
+    background-color: rgb(168, 96, 96);
+    color: rgb(255, 0, 0);
+    text-shadow: 0.4vh 0.3vh 0.4vh rebeccapurple;
+    font-style: italic;
+    font-weight: bold;
+}
+button:hover{
+    filter: invert(1);
+}
